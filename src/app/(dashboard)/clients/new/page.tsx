@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { UserPlus, ArrowRight, Camera, User, Phone, Mail, MapPin } from "lucide-react";
-import { GlassCard } from "@/components/ui/GlassCard";
+import { GlassCard } from "../../../../components/ui/GlassCard";
 
 export default function NewClientPage() {
     const router = useRouter();

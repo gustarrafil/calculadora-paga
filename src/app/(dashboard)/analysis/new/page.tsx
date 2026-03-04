@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ScanFace, Ruler, Info, ArrowRight, Sparkles } from "lucide-react";
-import { GlassCard } from "@/components/ui/GlassCard";
+import { GlassCard } from "../../../../components/ui/GlassCard";
 
 const measurementSections = [
     {

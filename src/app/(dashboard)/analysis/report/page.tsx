@@ -11,8 +11,8 @@ import {
     CheckCircle2,
     ChevronRight
 } from "lucide-react";
-import { GlassCard } from "@/components/ui/GlassCard";
-import { cn } from "@/lib/utils";
+import { GlassCard } from "../../../../components/ui/GlassCard";
+import { cn } from "../../../../lib/utils";
 
 export default function AnalysisReportPage() {
     const [isPro, setIsPro] = useState(false);

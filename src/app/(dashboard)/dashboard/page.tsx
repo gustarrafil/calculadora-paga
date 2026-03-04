@@ -10,7 +10,7 @@ import {
     ScanFace,
     FileText
 } from "lucide-react";
-import { GlassCard } from "@/components/ui/GlassCard";
+import { GlassCard } from "../../../components/ui/GlassCard";
 import Link from "next/link";
 
 const stats = [
